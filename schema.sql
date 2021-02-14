@@ -54,4 +54,3 @@ CREATE TABLE titles (
     PRIMARY KEY (emp_no, title, from_date)
 );
 
-SELECT * FROM departments;
