@@ -58,8 +58,8 @@ Mentorship Eligibilty table details is in Data([mentorship_eligibilty.csv](Data/
 
 - **Q**: Provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 - **A**: 
-* Query for current employees with the most recent titles could be created.
-* Query for current employees who are able to fill in the roles could be created
+  * Query for current employees with the most recent titles could be created.
+  * Query for current employees who are able to fill in the roles could be created
 
 
 
