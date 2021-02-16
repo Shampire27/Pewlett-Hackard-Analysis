@@ -64,13 +64,8 @@ Left outer Join dept_emp as de
 ON (e.emp_no = de.emp_no)
 Left outer Join titles as ti
 ON (e.emp_no = ti.emp_no)
---	INNER JOIN dept_emp as de
---		on(e.emp_no = de.emp_no)
---	INNER JOIN titles as ti
---		on(de.emp_no = ti.emp_no)
 WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no ASC, ti.to_date DESC;
-
 
 SELECT * FROM mentorship_eligibilty;
